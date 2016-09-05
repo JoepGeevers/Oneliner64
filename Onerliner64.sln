@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BC4278CB-0509-441B-84E4-A826FDD99E26}"
 EndProject
@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{
 		PublishScripts\Templates\Onerliner64.param.dev.json = PublishScripts\Templates\Onerliner64.param.dev.json
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oneliner64", "Oneliner64\Oneliner64.csproj", "{40C7456D-37A9-4C63-BCDA-9CAA6A66EA95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{85307343-DB66-4FB2-AD21-38D796B384FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85307343-DB66-4FB2-AD21-38D796B384FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85307343-DB66-4FB2-AD21-38D796B384FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C7456D-37A9-4C63-BCDA-9CAA6A66EA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C7456D-37A9-4C63-BCDA-9CAA6A66EA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C7456D-37A9-4C63-BCDA-9CAA6A66EA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C7456D-37A9-4C63-BCDA-9CAA6A66EA95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
