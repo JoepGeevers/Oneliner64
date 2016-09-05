@@ -139,6 +139,7 @@
     <Content Include="fonts\C64_Pro_Mono-STYLE.ttf" />
     <Content Include="fonts\C64_Pro_Mono-STYLE.woff" />
     <Content Include="fonts\C64_Pro_Mono-STYLE.woff2" />
+    <None Include="Properties\PublishProfiles\oneliner64-leaseweb-release.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
