@@ -43,18 +43,19 @@
 }
 
 a {
+    font: normal "c64_pro_mono-style", sans-serif;
     color: #6C5EB5;
 }
 
 h1 {
-    font-size: 32px;
+    font: normal 32px "c64_pro_mono-style", sans-serif;
     text-align: center;
     color: #fff;
     margin: 32px 0px;
 }
 
 h2 {
-    font-size: 24px;
+    font: normal 24px "c64_pro_mono-style", sans-serif;
     text-align: center;
     color: #fff;
     margin: 32px;
@@ -93,5 +94,5 @@ footer
 
 @font-face {
     font-family: 'c64_pro_mono-style';
-    src: url('../fonts/c64_pro_mono-style.eot') format('embedded-opentype'), url('../fonts/c64_pro_mono-style.ttf') format('truetype'), url('../fonts/c64_pro_mono-style.woff') format('woff');
+    src: url('fonts/c64_pro_mono-style.eot') format('embedded-opentype'), url('fonts/c64_pro_mono-style.ttf') format('truetype'), url('fonts/c64_pro_mono-style.woff') format('woff');
 }
