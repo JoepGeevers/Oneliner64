@@ -1,28 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BC4278CB-0509-441B-84E4-A826FDD99E26}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{936F0172-1C7F-4A1D-8A8B-598BF5BDBD22}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{49B46FC2-CF48-4F4D-AF13-2A8CA43F92ED}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{EB587636-9B50-478B-A7C3-3311CD8A450A}"
-	ProjectSection(SolutionItems) = preProject
-		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{23E12BE6-2D00-4FEF-B3AC-79A9E73BC77F}"
-	ProjectSection(SolutionItems) = preProject
-		PublishScripts\Templates\Onerliner64.json = PublishScripts\Templates\Onerliner64.json
-		PublishScripts\Templates\Onerliner64.param.dev.json = PublishScripts\Templates\Onerliner64.param.dev.json
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oneliner64", "Oneliner64\Oneliner64.csproj", "{40C7456D-37A9-4C63-BCDA-9CAA6A66EA95}"
 EndProject
 Global
@@ -38,9 +18,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{EB587636-9B50-478B-A7C3-3311CD8A450A} = {49B46FC2-CF48-4F4D-AF13-2A8CA43F92ED}
-		{23E12BE6-2D00-4FEF-B3AC-79A9E73BC77F} = {49B46FC2-CF48-4F4D-AF13-2A8CA43F92ED}
 	EndGlobalSection
 EndGlobal
