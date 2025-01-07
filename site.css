@@ -94,5 +94,5 @@ footer
 
 @font-face {
     font-family: 'c64_pro_mono-style';
-    src: url('c64_pro_mono-style.eot') format('embedded-opentype'), url('c64_pro_mono-style.ttf') format('truetype'), url('c64_pro_mono-style.woff') format('woff');
+    src: url('font/C64_Pro_Mono-STYLE.eot') format('embedded-opentype'), url('font/C64_Pro_Mono-STYLE.ttf') format('truetype'), url('font/C64_Pro_Mono-STYLE.woff') format('woff');
 }
